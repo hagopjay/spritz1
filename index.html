@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Spritz Reader</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="spritz-container">
+      <div id="spritz-display"></div>
+
+      <div id="spritz-controls">
+        <select id="wpm-selector">
+          <option value="200">200 WPM</option>
+          <option value="400">400 WPM</option>
+          <option value="500">500 WPM</option>
+          <option value="600" selected>600 WPM</option>
+          <option value="700">700 WPM</option>
+          <option value="750">750 WPM</option>
+          <option value="800">800 WPM</option>
+          <option value="888">888 WPM</option>
+          <option value="1000">1000 WPM</option>
+          <option value="1100">1100 WPM</option>
+          <option value="1200">1200 WPM</option>
+        </select>
+        <button id="spritz-toggle">Start</button>
+      </div>
+    </div>
+
+    <textarea
+      id="input-text"
+      rows="10"
+      cols="50"
+      placeholder="Paste your text here..."
+    ></textarea>
+    <script src="./script.js"></script>
+  </body>
+</html>
